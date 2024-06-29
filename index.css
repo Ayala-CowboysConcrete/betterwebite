@@ -18,6 +18,14 @@ main  .main-intro p{
     margin-left: 300px;
     }
 
+.header-img1 img {
+    height: 40px;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 975px;
+}
+
+
 .main-intro-mobile{
     display: none;
 }

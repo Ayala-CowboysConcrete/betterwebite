@@ -154,6 +154,7 @@ justify-content: center;
 display: flex;
 text-decoration: none;
 list-style: none;
+z-index: -1;
 }
 
 .footer-sitemap ul li a{
@@ -162,6 +163,7 @@ list-style: none;
     text-decoration: none;
     font-size: 1.3em;
     opacity: 0.9;
+    z-index: -1;
 }
 
 
@@ -181,6 +183,8 @@ list-style: none;
     margin-left: 31%;
     flex-grow: 3;
     margin-top: -40px;
+    z-index: -1;
+
 
 }
 
@@ -188,6 +192,7 @@ list-style: none;
 
     .footer-sitemap a{
     line-height: 30px;
+    z-index: -1;
 
     }
 
@@ -232,6 +237,16 @@ list-style: none;
     display: none;
 }
 
+.ham-menu {
+    display: none;
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom:20px ;
+}
 
 /* mobile version */
 
@@ -264,6 +279,7 @@ list-style: none;
     font-size: 3rem;
     transition: .3s ease;
     list-style: none;
+    z-index: 1;
 }
 .off-screen-menu.active {
     right: 0;
@@ -289,11 +305,15 @@ nav {
 
 /* ham menu */
 .ham-menu {
+    display: block;
     height: 60px;
     width: 60px;
     margin-left: auto;
     position: relative;
     margin-top: 0px;
+    z-index: 1;
+    padding: 20px;
+    padding-top: 10px;
 }
 .ham-menu span {
     height: 5px;
@@ -410,6 +430,11 @@ nav {
             font-family: sans-serif;
             max-width: 420px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
     
     
@@ -422,6 +447,11 @@ nav {
             font-family: sans-serif;
             max-width: 410px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
 
     @media only screen and (max-width:400px){
@@ -432,8 +462,38 @@ nav {
             font-family: sans-serif;
             max-width: 400px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
 
+    
+    @media only screen and (max-width:393px){
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            max-width: 393px;
+        }
+        .header-main {
+            width: 1000px;
+            height: 100px;
+        }
+        .footer-sitemap ul:nth-child(1){
+            margin-left: 6.5%;
+        }
+        .footer-main .footer-logos {
+            margin-left: 40%;
+         
+         }
+    }
+    
+    
+    
+    
     @media only screen and (max-width:390px){
         * {
             margin: 0px;
@@ -441,6 +501,11 @@ nav {
             box-sizing: border-box;
             font-family: sans-serif;
             max-width: 390px;
+        }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
         }
     }
 
@@ -452,6 +517,11 @@ nav {
             font-family: sans-serif;
             max-width: 410px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
 
     @media only screen and (max-width:370px){
@@ -462,6 +532,11 @@ nav {
             font-family: sans-serif;
             max-width: 410px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
 
     @media only screen and (max-width:360px){
@@ -471,6 +546,12 @@ nav {
             box-sizing: border-box;
             font-family: sans-serif;
             max-width: 410px;
+            
+        }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
         }
     }
 
@@ -482,6 +563,11 @@ nav {
             font-family: sans-serif;
             max-width: 410px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
     @media only screen and (max-width:340px){
         * {
@@ -490,6 +576,11 @@ nav {
             box-sizing: border-box;
             font-family: sans-serif;
             max-width: 410px;
+        }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
         }
     }
 
@@ -502,6 +593,11 @@ nav {
             font-family: sans-serif;
             max-width: 410px;
         }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
+        }
     }
 
     @media only screen and (max-width:320px){
@@ -511,5 +607,10 @@ nav {
             box-sizing: border-box;
             font-family: sans-serif;
             max-width: 410px;
+        }
+        .header-main{
+            width: 100%;
+        height: 100px;
+            
         }
     }

@@ -14,10 +14,6 @@ margin-top: 425px;
 }
 
 
-main  .main-intro p{
-    margin-left: 300px;
-    }
-
 .header-img1 img {
     height: 40px;
     align-self: center;
@@ -25,6 +21,9 @@ main  .main-intro p{
     margin-left: 975px;
 }
 
+main  .main-intro p{
+    margin-left: 300px;
+    }
 
 .main-intro-mobile{
     display: none;
@@ -143,4 +142,11 @@ main  .main-intro h2{
    } 
     
 
+}
+
+@media only screen and (max-width:393px){
+        main  .main-intro h2{
+        margin-left: 110px;
+        margin-top: 325px;
+        }
 }

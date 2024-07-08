@@ -149,4 +149,10 @@ main  .main-intro h2{
         margin-left: 110px;
         margin-top: 325px;
         }
+
+    .img-container{
+            top: 35.5%;
+            
+        z-index: -1;
+        }
 }

@@ -470,7 +470,7 @@ nav {
     }
 
     
-    @media only screen and (max-width:393px){
+    @media only screen and (min-width:393px){
         * {
             margin: 0px;
             padding: 0px;
@@ -489,6 +489,11 @@ nav {
             margin-left: 40%;
          
          }
+
+         .ham-menu {
+            padding: 20px;
+            margin-left: -10px;
+        }
     }
     
     
